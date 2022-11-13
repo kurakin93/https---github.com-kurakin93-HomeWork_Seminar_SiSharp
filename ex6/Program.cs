@@ -14,8 +14,7 @@
 
 Console.WriteLine("Input number");
 int num1 = Convert.ToInt32(Console.ReadLine());
-int a = num1 % 2;
-if(a == 0)     
+if(num1 % 2 == 0)     
      Console.WriteLine("Четное");
 else
      Console.WriteLine("Нечетное");
