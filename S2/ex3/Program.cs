@@ -11,3 +11,9 @@ if (Number == "6" | Number == "7")
     Console.WriteLine("Выходной день!");
     else
     Console.WriteLine("Рабочий");
+
+// Вариант решения задачи через массив. И конкретно какой день.
+// Console.WriteLine("Week days!");
+// string[] Days = { "Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday", "Sunday" };
+// int index = Convert.ToInt32(Console.ReadLine());
+// Console.WriteLine($"Today is {Days[index-1]}");
