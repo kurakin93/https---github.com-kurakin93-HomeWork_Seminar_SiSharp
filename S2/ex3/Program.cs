@@ -5,9 +5,9 @@
 // 1 -> нет
 
 Console.WriteLine("Введите день недели: ");
-string Number = Console.ReadLine();
+int Number = Convert.ToInt32(Console.ReadLine());
 
-if (Number == "6" | Number == "7")
+if (Number == 6 | Number == 7)
     Console.WriteLine("Выходной день!");
     else
     Console.WriteLine("Рабочий");
