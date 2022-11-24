@@ -6,3 +6,10 @@
 // 12821 -> да
 // 23432 -> да
 
+Console.WriteLine("Введите пятизначное число: ");
+var num1 = Convert.ToInt32(Console.ReadLine());
+
+if(num1/10000 == num1%10 && (num1/1000)%10 == (num1%100)/10)
+    {
+        Console.WriteLine("Является палиндромом! ");
+    }
