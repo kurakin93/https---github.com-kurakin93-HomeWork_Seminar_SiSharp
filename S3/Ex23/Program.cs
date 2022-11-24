@@ -4,3 +4,15 @@
 
 // 3 -> 1, 8, 27
 // 5 -> 1, 8, 27, 64, 125
+
+
+Console.Write("Введите число ");
+var num1 = Convert.ToInt32(Console.ReadLine());
+var num2 = 1;
+// for (int num2=1; num2 <= num1; num2++)
+while ( num2 <= num1 )
+{
+    Console.WriteLine(num2 * num2); //Math.Pow(num2,2)
+    num2++;
+}
+
